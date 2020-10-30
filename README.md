@@ -3,13 +3,13 @@
 ## 安装
 
 ```shell script
-eco plugin install https://github.com/iecoe/citypicker
+eco plugin install https://github.com/kjeco/citypicker
 ```
 
 ## 卸载
 
 ```shell script
-eco plugin uninstall https://github.com/iecoe/citypicker
+eco plugin uninstall https://github.com/kjeco/citypicker
 ```
 
 ## 引用
