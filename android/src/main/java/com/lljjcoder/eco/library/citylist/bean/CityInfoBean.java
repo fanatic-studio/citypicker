@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.citylist.bean;
+package com.lljjcoder.eco.library.citylist.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;

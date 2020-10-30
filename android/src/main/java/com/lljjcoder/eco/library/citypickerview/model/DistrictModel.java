@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.citypickerview.model;
+package com.lljjcoder.eco.library.citypickerview.model;
 
 public class DistrictModel {
 	private String name;

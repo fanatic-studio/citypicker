@@ -1,6 +1,6 @@
 //
-//  vdCitypickerBridge.h
-//  vdApp
+//  ecoCitypickerBridge.h
+//  ecoApp
 //
 //  Created by 高一 on 2019/1/6.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface vdCitypickerBridge : NSObject
+@interface ecoCitypickerBridge : NSObject
 
 @end
 

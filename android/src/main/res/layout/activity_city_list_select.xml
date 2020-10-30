@@ -37,7 +37,7 @@
         android:focusableInTouchMode="true"
         android:padding="5dp">
 
-        <com.lljjcoder.vd.library.citylist.widget.CleanableEditView
+        <com.lljjcoder.eco.library.citylist.widget.CleanableEditView
             android:id="@+id/cityInputText"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -159,7 +159,7 @@
             android:textSize="20sp"
             android:visibility="gone"/>
 
-        <com.lljjcoder.vd.library.citylist.sortlistview.SideBar
+        <com.lljjcoder.eco.library.citylist.sortlistview.SideBar
             android:id="@+id/sidrbar"
             android:layout_width="30.0dip"
             android:layout_height="fill_parent"

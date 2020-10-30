@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.citypickerview.model;
+package com.lljjcoder.eco.library.citypickerview.model;
 
 import java.util.List;
 

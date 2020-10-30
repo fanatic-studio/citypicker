@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.citylist.Toast;
+package com.lljjcoder.eco.library.citylist.Toast;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lljjcoder.vd.library.citypickerview.R;
+import com.lljjcoder.eco.library.citypickerview.R;
 
 
 /**

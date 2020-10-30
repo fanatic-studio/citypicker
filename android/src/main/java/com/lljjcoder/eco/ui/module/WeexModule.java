@@ -1,6 +1,6 @@
-package com.lljjcoder.vd.ui.module;
+package com.lljjcoder.eco.ui.module;
 
-import com.lljjcoder.vd.ui.entry.vd_citypicker;
+import com.lljjcoder.eco.ui.entry.eco_citypicker;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
@@ -8,13 +8,13 @@ import com.taobao.weex.common.WXModule;
 
 public class WeexModule extends WXModule {
 
-    private static final String TAG = "vdCitypickerModule";
+    private static final String TAG = "ecoCitypickerModule";
 
-    private vd_citypicker __obj;
+    private eco_citypicker __obj;
 
-    private vd_citypicker myApp() {
+    private eco_citypicker myApp() {
         if (__obj == null) {
-            __obj = new vd_citypicker();
+            __obj = new eco_citypicker();
         }
         return __obj;
     }

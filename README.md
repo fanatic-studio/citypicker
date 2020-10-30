@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/citypicker
+eco plugin install https://github.com/iecoe/citypicker
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/citypicker
+eco plugin uninstall https://github.com/iecoe/citypicker
 ```
 
 ## 引用
 
 ```js
-const citypicker = app.requireModule("vd/citypicker");
+const citypicker = app.requireModule("eco/citypicker");
 ```
 
 ## 示例代码
@@ -79,4 +79,4 @@ const citypicker = app.requireModule("vd/citypicker");
 
 ## 预览效果
 
-![](https://vd.app/assets/img/ezgif-4-82378e086c.6766da03.png)
+![](https://eco.app/assets/img/ezgif-4-82378e086c.6766da03.png)

@@ -6,7 +6,7 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.lljjcoder.vd.library.citylist.widget;
+package com.lljjcoder.eco.library.citylist.widget;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

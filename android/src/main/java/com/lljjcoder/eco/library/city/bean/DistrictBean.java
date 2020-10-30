@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.city.bean;
+package com.lljjcoder.eco.library.city.bean;
 
 /**
  * @2Do:

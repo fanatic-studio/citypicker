@@ -17,7 +17,7 @@
  *  limitations under the License.
  */
 
-package com.lljjcoder.vd.library.citypickerview.widget.wheel;
+package com.lljjcoder.eco.library.citypickerview.widget.wheel;
 
 /**
  * Range for visible items.

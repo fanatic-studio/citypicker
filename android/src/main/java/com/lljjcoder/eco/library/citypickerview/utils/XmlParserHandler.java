@@ -1,9 +1,9 @@
-package com.lljjcoder.vd.library.citypickerview.utils;
+package com.lljjcoder.eco.library.citypickerview.utils;
 
 
-import com.lljjcoder.vd.library.citypickerview.model.CityModel;
-import com.lljjcoder.vd.library.citypickerview.model.DistrictModel;
-import com.lljjcoder.vd.library.citypickerview.model.ProvinceModel;
+import com.lljjcoder.eco.library.citypickerview.model.CityModel;
+import com.lljjcoder.eco.library.citypickerview.model.DistrictModel;
+import com.lljjcoder.eco.library.citypickerview.model.ProvinceModel;
 
 import java.util.ArrayList;
 import java.util.List;

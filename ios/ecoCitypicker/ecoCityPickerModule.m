@@ -1,8 +1,8 @@
-#import "vdCityPickerModule.h"
+#import "ecoCityPickerModule.h"
 #import "DeviceUtil.h"
 #import <WeexPluginLoader/WeexPluginLoader.h>
 
-@interface vdCityPickerModule () <UIPickerViewDelegate, UIPickerViewDataSource>
+@interface ecoCityPickerModule () <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (nonatomic, strong) NSString *provience;
 @property (nonatomic, strong) NSString *city;
@@ -22,9 +22,9 @@
 
 @end
 
-@implementation vdCityPickerModule
+@implementation ecoCityPickerModule
 
-WX_PlUGIN_EXPORT_MODULE(vdCitypicker, vdCityPickerModule)
+WX_PlUGIN_EXPORT_MODULE(ecoCitypicker, ecoCityPickerModule)
 WX_EXPORT_METHOD(@selector(select:callback:))
 
 - (void)select:(NSDictionary*)params callback:(WXModuleKeepAliveCallback)callback

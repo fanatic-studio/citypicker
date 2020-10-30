@@ -17,7 +17,7 @@
  *  limitations under the License.
  */
 
-package com.lljjcoder.vd.library.citypickerview.widget.wheel;
+package com.lljjcoder.eco.library.citypickerview.widget.wheel;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -37,8 +37,8 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 
-import com.lljjcoder.vd.library.citypickerview.R;
-import com.lljjcoder.vd.library.citypickerview.widget.wheel.adapters.WheelViewAdapter;
+import com.lljjcoder.eco.library.citypickerview.R;
+import com.lljjcoder.eco.library.citypickerview.widget.wheel.adapters.WheelViewAdapter;
 
 /**
  * Numeric wheel view.

@@ -1,5 +1,5 @@
 //
-//  vdCitypicker.h
+//  ecoCitypicker.h
 //  Pods
 //
 //  Created by 高一 on 2019/3/4.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface vdCitypicker : NSObject
+@interface ecoCitypicker : NSObject
 
 + (instancetype)sharedManager;
 

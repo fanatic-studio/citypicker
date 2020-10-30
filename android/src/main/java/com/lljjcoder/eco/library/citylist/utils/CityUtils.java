@@ -1,6 +1,6 @@
-package com.lljjcoder.vd.library.citylist.utils;
+package com.lljjcoder.eco.library.citylist.utils;
 
-import com.lljjcoder.vd.library.citylist.bean.CityInfoBean;
+import com.lljjcoder.eco.library.citylist.bean.CityInfoBean;
 
 import org.json.JSONArray;
 import org.json.JSONException;

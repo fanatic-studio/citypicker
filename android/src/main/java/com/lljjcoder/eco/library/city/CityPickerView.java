@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.city;
+package com.lljjcoder.eco.library.city;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -17,14 +17,14 @@ import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.lljjcoder.vd.library.city.bean.CityBean;
-import com.lljjcoder.vd.library.city.bean.DistrictBean;
-import com.lljjcoder.vd.library.city.bean.ProvinceBean;
-import com.lljjcoder.vd.library.citypickerview.R;
-import com.lljjcoder.vd.library.citypickerview.widget.CanShow;
-import com.lljjcoder.vd.library.citypickerview.widget.wheel.OnWheelChangedListener;
-import com.lljjcoder.vd.library.citypickerview.widget.wheel.WheelView;
-import com.lljjcoder.vd.library.citypickerview.widget.wheel.adapters.ArrayWheelAdapter;
+import com.lljjcoder.eco.library.city.bean.CityBean;
+import com.lljjcoder.eco.library.city.bean.DistrictBean;
+import com.lljjcoder.eco.library.city.bean.ProvinceBean;
+import com.lljjcoder.eco.library.citypickerview.R;
+import com.lljjcoder.eco.library.citypickerview.widget.CanShow;
+import com.lljjcoder.eco.library.citypickerview.widget.wheel.OnWheelChangedListener;
+import com.lljjcoder.eco.library.citypickerview.widget.wheel.WheelView;
+import com.lljjcoder.eco.library.citypickerview.widget.wheel.adapters.ArrayWheelAdapter;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

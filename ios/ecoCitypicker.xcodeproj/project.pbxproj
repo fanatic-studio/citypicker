@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B2B1E7412227CAE20087A8D1 /* vdCityPickerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1E73F2227CAE20087A8D1 /* vdCityPickerModule.m */; };
+		B2B1E7412227CAE20087A8D1 /* ecoCityPickerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1E73F2227CAE20087A8D1 /* ecoCityPickerModule.m */; };
 		B2B1E7432227D0860087A8D1 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = B2B1E7422227D0860087A8D1 /* Source */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2B1E7262227CA320087A8D1 /* citypicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citypicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2B1E73F2227CAE20087A8D1 /* vdCityPickerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vdCityPickerModule.m; sourceTree = "<group>"; };
-		B2B1E7402227CAE20087A8D1 /* vdCityPickerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdCityPickerModule.h; sourceTree = "<group>"; };
+		B2B1E73F2227CAE20087A8D1 /* ecoCityPickerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ecoCityPickerModule.m; sourceTree = "<group>"; };
+		B2B1E7402227CAE20087A8D1 /* ecoCityPickerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecoCityPickerModule.h; sourceTree = "<group>"; };
 		B2B1E7422227D0860087A8D1 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,8 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				B2B1E7422227D0860087A8D1 /* Source */,
-				B2B1E7402227CAE20087A8D1 /* vdCityPickerModule.h */,
-				B2B1E73F2227CAE20087A8D1 /* vdCityPickerModule.m */,
+				B2B1E7402227CAE20087A8D1 /* ecoCityPickerModule.h */,
+				B2B1E73F2227CAE20087A8D1 /* ecoCityPickerModule.m */,
 			);
 			path = citypicker;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B1E7412227CAE20087A8D1 /* vdCityPickerModule.m in Sources */,
+				B2B1E7412227CAE20087A8D1 /* ecoCityPickerModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 {
 	"desc": "城市选择器",
-	"requireFormatName": "vdCitypicker",
-	"requireName": "vd/citypicker",
+	"requireFormatName": "ecoCitypicker",
+	"requireName": "eco/citypicker",
 	"title": "城市选择器"
 }

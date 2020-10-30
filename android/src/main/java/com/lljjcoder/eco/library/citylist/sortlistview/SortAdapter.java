@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.citylist.sortlistview;
+package com.lljjcoder.eco.library.citylist.sortlistview;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
 
-import com.lljjcoder.vd.library.citypickerview.R;
+import com.lljjcoder.eco.library.citypickerview.R;
 
 import java.util.List;
 

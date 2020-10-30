@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.citypickerview.utils;
+package com.lljjcoder.eco.library.citypickerview.utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

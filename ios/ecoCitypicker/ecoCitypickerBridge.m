@@ -1,25 +1,25 @@
 //
-//  vdCitypickerBridge.m
-//  vdApp
+//  ecoCitypickerBridge.m
+//  ecoApp
 //
 //  Created by 高一 on 2019/1/6.
 //
 
-#import "vdCitypickerBridge.h"
-#import "vdCityPickerModule.h"
+#import "ecoCitypickerBridge.h"
+#import "ecoCityPickerModule.h"
 
-@interface vdCitypickerBridge ()
+@interface ecoCitypickerBridge ()
 
-@property (nonatomic, strong) vdCityPickerModule *city;
+@property (nonatomic, strong) ecoCityPickerModule *city;
 
 @end
 
-@implementation vdCitypickerBridge
+@implementation ecoCitypickerBridge
 
 - (void)initialize
 {
     if (self.city == nil) {
-        self.city = [[vdCityPickerModule alloc] init];
+        self.city = [[ecoCityPickerModule alloc] init];
     }
 }
 

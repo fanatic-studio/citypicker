@@ -1,19 +1,19 @@
-package com.lljjcoder.vd.ui.module;
+package com.lljjcoder.eco.ui.module;
 
 
-import com.lljjcoder.vd.ui.entry.vd_citypicker;
+import com.lljjcoder.eco.ui.entry.eco_citypicker;
 
-import app.vd.framework.extend.view.ExtendWebView;
-import app.vd.framework.extend.view.webviewBridge.JsCallback;
-import app.vd.framework.ui.vd;
+import app.eco.framework.extend.view.ExtendWebView;
+import app.eco.framework.extend.view.webviewBridge.JsCallback;
+import app.eco.framework.ui.eco;
 
 public class WebModule {
 
-    private static vd_citypicker __obj;
+    private static eco_citypicker __obj;
 
-    private static vd_citypicker myApp() {
+    private static eco_citypicker myApp() {
         if (__obj == null) {
-            __obj = new vd_citypicker();
+            __obj = new eco_citypicker();
         }
         return __obj;
     }
@@ -28,6 +28,6 @@ public class WebModule {
      * @param callback
      */
     public static void select(ExtendWebView webView, String object, JsCallback callback) {
-        myApp().select(webView.getContext(), object, vd.MCallback(callback));
+        myApp().select(webView.getContext(), object, eco.MCallback(callback));
     }
 }

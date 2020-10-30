@@ -1,6 +1,6 @@
-package com.lljjcoder.vd.library.citylist;
+package com.lljjcoder.eco.library.citylist;
 
-import com.lljjcoder.vd.library.citylist.bean.CityInfoBean;
+import com.lljjcoder.eco.library.citylist.bean.CityInfoBean;
 
 /**
  * 作者：liji on 2017/5/21 16:23

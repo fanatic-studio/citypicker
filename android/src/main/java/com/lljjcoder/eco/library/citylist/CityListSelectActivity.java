@@ -1,4 +1,4 @@
-package com.lljjcoder.vd.library.citylist;
+package com.lljjcoder.eco.library.citylist;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,15 +12,15 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.lljjcoder.vd.library.citylist.bean.CityInfoBean;
-import com.lljjcoder.vd.library.citylist.sortlistview.CharacterParser;
-import com.lljjcoder.vd.library.citylist.sortlistview.PinyinComparator;
-import com.lljjcoder.vd.library.citylist.sortlistview.SideBar;
-import com.lljjcoder.vd.library.citylist.sortlistview.SortAdapter;
-import com.lljjcoder.vd.library.citylist.sortlistview.SortModel;
-import com.lljjcoder.vd.library.citylist.utils.CityUtils;
-import com.lljjcoder.vd.library.citylist.widget.CleanableEditView;
-import com.lljjcoder.vd.library.citypickerview.R;
+import com.lljjcoder.eco.library.citylist.bean.CityInfoBean;
+import com.lljjcoder.eco.library.citylist.sortlistview.CharacterParser;
+import com.lljjcoder.eco.library.citylist.sortlistview.PinyinComparator;
+import com.lljjcoder.eco.library.citylist.sortlistview.SideBar;
+import com.lljjcoder.eco.library.citylist.sortlistview.SortAdapter;
+import com.lljjcoder.eco.library.citylist.sortlistview.SortModel;
+import com.lljjcoder.eco.library.citylist.utils.CityUtils;
+import com.lljjcoder.eco.library.citylist.widget.CleanableEditView;
+import com.lljjcoder.eco.library.citypickerview.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

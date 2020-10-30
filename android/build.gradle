@@ -6,8 +6,8 @@ android {
     defaultConfig {
         minSdkVersion project.appMinSdkVersion
         targetSdkVersion project.targetSdkVersion
-        versionCode project.vdVersionCode
-        versionName project.vdVersionName
+        versionCode project.ecoVersionCode
+        versionName project.ecoVersionName
 
         javaCompileOptions {
             annotationProcessorOptions {
@@ -33,7 +33,7 @@ dependencies {
     compileOnly "org.apache.weex:sdk_legacy:${project.weex_sdkLibVersion}"
     compileOnly "com.taobao.android:weexplugin-processor:${project.weex_processorVersion}"
     //
-    compileOnly project(':vd')
+    compileOnly project(':eco')
 }
 
 

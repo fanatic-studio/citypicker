@@ -1,16 +1,16 @@
-package com.lljjcoder.vd.ui.entry;
+package com.lljjcoder.eco.ui.entry;
 
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 
 import com.alibaba.fastjson.JSONObject;
-import com.lljjcoder.vd.library.city.CityPickerView;
-import com.lljjcoder.vd.library.city.bean.CityBean;
-import com.lljjcoder.vd.library.city.bean.DistrictBean;
-import com.lljjcoder.vd.library.city.bean.ProvinceBean;
-import com.lljjcoder.vd.ui.module.WebModule;
-import com.lljjcoder.vd.ui.module.WeexModule;
+import com.lljjcoder.eco.library.city.CityPickerView;
+import com.lljjcoder.eco.library.city.bean.CityBean;
+import com.lljjcoder.eco.library.city.bean.DistrictBean;
+import com.lljjcoder.eco.library.city.bean.ProvinceBean;
+import com.lljjcoder.eco.ui.module.WebModule;
+import com.lljjcoder.eco.ui.module.WeexModule;
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXException;
@@ -18,13 +18,13 @@ import com.taobao.weex.common.WXException;
 import java.util.HashMap;
 import java.util.Map;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import app.vd.framework.extend.bean.WebCallBean;
-import app.vd.framework.extend.integration.swipebacklayout.BGAKeyboardUtil;
-import app.vd.framework.extend.module.vdJson;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import app.eco.framework.extend.bean.WebCallBean;
+import app.eco.framework.extend.integration.swipebacklayout.BGAKeyboardUtil;
+import app.eco.framework.extend.module.ecoJson;
 
 @ModuleEntry
-public class vd_citypicker {
+public class eco_citypicker {
 
     /**
      * ModuleEntry
@@ -32,11 +32,11 @@ public class vd_citypicker {
      */
     public void init(Context context) {
         try {
-            WXSDKEngine.registerModule("vdCitypicker", WeexModule.class);
+            WXSDKEngine.registerModule("ecoCitypicker", WeexModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }
-        WebCallBean.addClassData("vdCitypicker", WebModule.class);
+        WebCallBean.addClassData("ecoCitypicker", WebModule.class);
     }
 
     /****************************************************************************************/
@@ -51,10 +51,10 @@ public class vd_citypicker {
      * @param callback
      */
     public void select(Context context, Object object, final JSCallback callback) {
-        JSONObject json = vdJson.parseObject(object);
-        final String province = vdJson.getString(json, "province");
-        final String city = vdJson.getString(json, "city");
-        final String area = vdJson.getString(json, "area");
+        JSONObject json = ecoJson.parseObject(object);
+        final String province = ecoJson.getString(json, "province");
+        final String city = ecoJson.getString(json, "city");
+        final String area = ecoJson.getString(json, "area");
         //
         if (cityPicker == null) {
             cityPicker = new CityPickerView.Builder(context)
